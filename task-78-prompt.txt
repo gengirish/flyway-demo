@@ -1,0 +1,5 @@
+Database migration with Flyway
+
+Description: Integrate the Flyway database migration tool into a Spring Boot application. Create a SQL migration script in the src/main/resources/db/migration directory (e.g., V1__Create_user_table.sql). When the application starts, Flyway should automatically detect this script and apply it to the database, creating the necessary table.
+
+Skills Tested: Database schema management, database migration tools, and Spring Boot auto-configuration.
